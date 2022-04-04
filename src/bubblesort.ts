@@ -8,7 +8,7 @@ export class Bubble implements Strategy {
    * @param array array numerico que se ordenara
    * @returns devuelve el array ordenado
    */
-  public bubbleSort(array: number[]): number[] {
+  public algorithmSort(array: number[]): number[] {
     // console.log(`Array inicial es: ${array}`);
     let swap: number = 0;
     array = array.slice();

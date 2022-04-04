@@ -18,7 +18,7 @@ export class Solver {
    */
   sort(): number[] {
     let resultado: number[] = [];
-    resultado = this.strategy.bubbleSort(this.dataNumber);
+    resultado = this.strategy.algorithmSort(this.dataNumber);
     // console.log(`el resultado de ordenacion es: ${resultado}`);
     return resultado;
   }
