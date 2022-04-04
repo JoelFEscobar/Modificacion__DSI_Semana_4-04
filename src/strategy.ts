@@ -1,4 +1,6 @@
-export type methodStrategy = 'Bubble' | 'Merge';
+/**
+ * Interfaz que implementa el funcionamiento de la estrategia
+ */
 export interface Strategy {
-  bubbleSort(array: number[], type: methodStrategy ): number[];
+  bubbleSort(array: number[]): number[];
 }

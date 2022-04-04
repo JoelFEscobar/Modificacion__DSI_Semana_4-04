@@ -1,7 +1,9 @@
 {
 	"entryPoints": [
-		"./src/ejercicio1clase.ts",
-        "./src/name_exercice"
+		"./src/bubblesort.ts",
+        "./src/mergesort.ts",
+		"./src/solver.ts",
+		"./src/strategy.ts"
 	], 
 	"out": "./docs/typedoc"
 }

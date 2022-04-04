@@ -1,10 +1,14 @@
+/**
+ * Funcion que implementa la strategia de busqueda por ordenacion en burbuja
+ */
 import {Strategy} from './strategy';
-import {methodStrategy} from './strategy';
 export class Bubble implements Strategy {
-  public bubbleSort(array: number[], type: methodStrategy ): number[] {
-    if (type == 'Bubble') {
-
-    }
+  /**
+   * Funcion encargada de hacer la ordenacion por burbuja
+   * @param array array numerico que se ordenara
+   * @returns devuelve el array ordenado
+   */
+  public bubbleSort(array: number[]): number[] {
     // console.log(`Array inicial es: ${array}`);
     let swap: number = 0;
     array = array.slice();
